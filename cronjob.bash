@@ -18,12 +18,12 @@ else
 fi
 
 # backup directory creation
-if [ ! -d "$backup_dir" ]; then {
+if [ ! -d "$backup_dir" ]; then 
     echo "backup directory does not exist, creating: $backup_dir"
     mkdir -p "$backup_dir"
-} else {
+else 
     echo "directory exists: $backup_dir"
-} fi
+fi
 
 # date and time for backup files
 date=$(date +"%Y-%m-%d_%H-%M")
