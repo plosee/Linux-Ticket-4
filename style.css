@@ -1,0 +1,424 @@
+body {
+    background-color: rgb(11, 2, 21);
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.jumbotron{
+    background-image: url("/failid/img/helpdesk.jpg");
+    object-fit: fill;
+    backdrop-filter: blur(100px);
+    color: white;
+    border-radius: 15px;
+    border: solid black 1px;
+    width: 100%;
+}
+
+footer {
+    background-color: #1e1c1c !important;
+    padding: 50px 0;
+    color:#f0f9ff;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+label {
+    padding-top: 10px;
+}
+
+th,
+h3,
+h4,
+small,
+td,
+p,
+label,
+h2,
+h1 {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.input {
+    border-radius: 15px;
+    border: solid black 2px; 
+    padding-left: 35px;
+    height: 55px;
+    /* width: 525px; */
+    width: 100%;
+}
+
+.probleemi-vorm {
+    text-align: center;
+}
+
+.kast {
+    border: solid white 2px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.col-md-12 {
+    text-align: center;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #1e1c1c;
+    border: solid black 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.row {
+    margin: 0;
+}
+
+
+.loe-edasi {
+    display: none; /* Algselt peidetud */
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.reviews-BOX h5 {
+    height: 40px;
+}
+
+.MAINCONTAINER {
+    /* border: solid black 2px; */
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.search-div {
+    margin: 0 auto;
+    font-size: 25px;
+    width: 100%;
+}
+
+
+hr {
+    border-color: rgb(40, 38, 38);
+}
+
+a {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.nav-pfp-a {
+    /* margin-top: -10px; */
+    padding-top: 4px;
+
+}
+.nav-pfp {
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+}
+
+.star {
+    font-size: 20px;
+}
+.star [type="radio"] {
+    appearance: none;
+}
+.star label:has(~ :checked) {
+    color: orange;
+}
+
+.hinnang-textbox {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.avaleht-button {
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.valge-tekst {
+    color: white;
+}
+.veel-hinnanguid {
+    color: white;
+    /* padding-top: 25px; */
+    margin-top: 60px;
+    
+}
+
+.otsi-tulemus {
+    background-color: white;
+    padding: 1px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.tekst-keskele {
+    text-align: center;
+}
+.tekst-vasakule {
+    text-align: left;
+}
+.tekst-paremale {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: solid black 2px;
+}
+
+thead th {
+    background-color: #1d0835;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    /* border-bottom: 2px solid #f5a623; */
+    border-bottom: 2px solid black;
+}
+
+tbody td {
+    background-color: #1b1b2f;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #212139;
+}
+
+tbody tr:hover {
+    background-color: #32326e;
+}
+.login-taust {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("/reit/failid/img/bg.jpg"); */
+    background-color: rgb(11, 2, 21);
+    backdrop-filter: blur(100px);
+    background-size: cover;
+}
+.login-form {
+    color: white;
+    border: solid black 2px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1e1c1c;
+}
+.login-form .btn{
+    /* margin: 500px; */
+}
+.login-search {
+    margin-bottom: 10px;
+}
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nupp {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.taotle-BOX {
+    margin: 0 auto;
+    color: white;
+    border: solid black 2px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1e1c1c;
+    font-size: 20px;
+}
+.taotle-BOX .taotle-form label {
+    font-size: 20px;
+}
+
+.pilt_logo {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 5px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-left: -15px;
+    margin-top: 2px;
+    object-fit: cover;
+}
+
+.profiili_pilt {
+    height: 70px;
+    width: 70px;
+    border: solid black 2px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: white;
+}
+.profiili_pilt-profile {
+    height: 150px;
+    width: 150px;
+    border: solid black 2px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: white;
+}
+.profiili_icon {
+    height: 40px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.href-varv {
+    color: rgb(60, 60, 255);
+}
+
+
+.brdr {
+    border: solid red 2px;
+}
+
+.settings .col-md-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid white 2px; */
+    height: 60px;
+    width: 100%;
+    border-bottom: solid black 2px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.settings .col-md-3 {
+    border: solid white 2px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.settings .col-md-9 {
+    margin-right: -50px;
+}
+.settings .esimene {
+    margin-top: 0px;
+}
+.settings .viimane {
+    border: solid transparent;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+.lisa-pilt-form {
+    padding-left: 100px;
+    color: white;
+    /* background-color: red; */
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+    th, td {
+        text-align: left;
+        padding: 8px;
+        white-space: nowrap;
+    }
+    td {
+        word-wrap: break-word;
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis; /* Kui tekst on liiga pikk, lühendab selle "..." */
+    }
+}
+
+.tabel {
+    font-size: 20px;
+}
+
+.settings-andmed {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.settings-andmed label {
+    margin-top: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.settings-container {
+    border: solid black 3px;
+    padding-bottom: 12px;
+    background-color: #1e1c1c;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    z-index: 1;
+}
+.change-password-form {
+    text-align: center;
+}
+
+.ylevaade-jumbo b {
+    font-size: 80px;
+    top: -30px;
+}
